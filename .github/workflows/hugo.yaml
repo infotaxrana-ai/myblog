@@ -1,0 +1,21 @@
+baseURL: "https://infotaxrana-ai.github.io/myblog/"
+languageCode: bn
+title: "আমার ব্লগ"
+theme: PaperMod
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Posts
+      url: /posts/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
